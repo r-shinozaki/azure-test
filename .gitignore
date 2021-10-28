@@ -1,0 +1,7 @@
+package-lock.json
+
+test-app/node_modules/*
+test-app/package-lock.json
+
+front/node_modules/*
+front/package-lock.json

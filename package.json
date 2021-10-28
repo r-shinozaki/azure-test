@@ -1,0 +1,18 @@
+{
+  "name": "azure-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "cd test-app && npm install && cd ../front && npm install",
+    "build": "cd front && npm run build",
+    "start": "cd test-app && npm start",
+    "dev": "npm install && npm run build && npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=12.1"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "appService.zipIgnorePattern": [
+    "node_modules{,/**}",
+    ".vscode{,/**}"
+  ],
+  "appService.defaultWebAppToDeploy": "/subscriptions/cc8d3a8f-b799-4e28-a4d8-4b5fab003310/resourceGroups/azure-resource-ntmlab1/providers/Microsoft.Web/sites/sample-app-ntmlab",
+  "appService.deploySubpath": "."
+}
