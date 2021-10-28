@@ -8,7 +8,7 @@
     "build": "cd front && npm run build",
     "start": "cd test-app && npm start",
     "dev": "npm install && npm run build && npm start",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "exit 0"
   },
   "author": "",
   "license": "ISC",
